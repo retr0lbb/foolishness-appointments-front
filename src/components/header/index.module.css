@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+
+.flexCenter{
+    align-items: center;
+    justify-items: center;
+}
+
+.wrapper{
+    background-color: #12130F;
+    color: #6F8AB7;
+    width: 100%;
+    min-height: 80px;
+}

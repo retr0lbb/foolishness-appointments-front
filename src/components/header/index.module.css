@@ -1,23 +1,28 @@
-.flex{
-    display: flex;
-}
 
-.flexRow{
-    flex-direction: row;
-}
-
-.flexCol{
-    flex-direction: column;
-}
-
-.flexCenter{
-    align-items: center;
-    justify-items: center;
-}
 
 .wrapper{
-    background-color: #12130F;
-    color: #6F8AB7;
+    display: flex;
+    align-items: center;
+    background-color: #003049;
+    color: #12130F;
     width: 100%;
     min-height: 80px;
+    padding: 10px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.logo > span{
+    font-size: 64px;
+}
+
+.logo > p {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
 }

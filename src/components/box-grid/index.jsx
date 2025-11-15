@@ -1,17 +1,26 @@
+import style from "./index.module.css"
 
-function List(){
+function List(props){
     return(
-        <div>
-
+        <div className={`${style.list}`}>
+            {props.children}
         </div>
     )
 }
 
 
-function Item(){
+function Item(props){
     return(
-        <a href="">
-            
+        <a href={props.to} className={`${style.listItem}`}>
+            <div className={style.labelInline}>
+                {props.icon}
+                <p>{props.title}</p>
+            </div>
         </a>
     )
 }
+
+List.Item = Item
+
+
+export {List}

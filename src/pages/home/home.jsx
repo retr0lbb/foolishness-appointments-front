@@ -12,8 +12,6 @@ export function Home(){
                 <p className={style.largeText}>O que você deseja fazer hoje?</p>
                 <List>
                     <List.Item icon={<BriefcaseMedical />} title="Marcar Consulta" to="/appointment/add" />
-                    <List.Item icon={<ClipboardPlus />} title="Re Marcar Exame" to="/appointment/alter" />
-                    <List.Item icon={<BanknoteArrowDown />} title="Alterar Pagamento de consulta" to="/appointment/pay" />
                     <List.Item icon={<IconList />} title="Ver consultas" to="/appointment/list" />
                 </List>
             </div>
